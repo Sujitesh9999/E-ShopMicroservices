@@ -1,8 +1,4 @@
-﻿using Carter;
-using Mapster;
-using MediatR;
-
-namespace Catalog.API.Product.CreateProduct
+﻿namespace Catalog.API.Products.CreateProduct
 {
     public class CreateProductEndPoint : ICarterModule
     {
@@ -12,7 +8,7 @@ namespace Catalog.API.Product.CreateProduct
 
         public void AddRoutes(IEndpointRouteBuilder app)
         {
-            app.MapPost("/product", async(CreateProductRequest request, IMediator mediator) =>
+            app.MapPost("/products", async(CreateProductRequest request, IMediator mediator) =>
             {
                 var command = request.Adapt<CreateProductCommand>();
 
