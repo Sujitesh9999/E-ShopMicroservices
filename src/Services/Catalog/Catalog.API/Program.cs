@@ -1,10 +1,3 @@
-using BuildingBlocks.Behaviours;
-using BuildingBlocks.Exceptions.Handler;
-using Carter;
-using Catalog.API.Data;
-using HealthChecks.UI.Client;
-using Marten;
-using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 var builder = WebApplication.CreateBuilder(args);
 

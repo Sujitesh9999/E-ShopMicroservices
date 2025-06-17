@@ -1,5 +1,4 @@
-﻿using Marten.Pagination;
-using Marten.Schema;
+﻿using Marten.Schema;
 
 namespace Catalog.API.Data
 {
@@ -18,7 +17,7 @@ namespace Catalog.API.Data
 
         private static IEnumerable<Product> GetPreCOnfiguredProducts() => new List<Product>
         {
-            new Product()
+                new Product()
                 {
                     Id = new Guid("5334c996-8457-4cf0-815c-ed2b77c4ff61"),
                     Name = "IPhone X",
