@@ -10,3 +10,4 @@ global using Mapster;
 global using BuildingBlocks.Behaviours;
 global using BuildingBlocks.Exceptions.Handler;
 global using FluentValidation;
+global using Basket.API.Dtos;

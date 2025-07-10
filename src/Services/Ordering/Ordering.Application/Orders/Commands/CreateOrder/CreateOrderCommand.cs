@@ -15,4 +15,6 @@ namespace Ordering.Application.Orders.Commands.CreateOrder
             RuleFor(x => x.Order.OrderItems).NotEmpty().WithMessage("OrderItems should not be empty");
         }
     }
+
+
 }
